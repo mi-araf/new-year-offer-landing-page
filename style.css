@@ -176,3 +176,57 @@
     height: 250px;
     transform: translate(6px, 8px);
 }
+
+
+#sale {
+    font-family: "Inter";
+    width: 66%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.sale-text h5 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #070211;
+}
+.sale-text h3 {
+    font-family: "Meow Script" !important;
+    font-weight: 100;
+    font-size: 72px;
+    color: #070211;
+    margin: 16px 0 33px;
+}
+.sale-text h3 span {
+    color: #FF0000;
+}
+.sale-text p {
+    color: rgb(7, 2, 17, 0.6);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+#sale-posts {
+    margin: 70px auto;
+    text-align: center;
+    position: relative;
+}
+#img-75 {
+    position: absolute;
+    z-index: 2;
+    right: 640px;
+    top: -20px;
+    width: 660px;
+    height: 550px;
+}
+#img-44 {
+    position: relative;
+    right: -440px;
+    width: 207px;
+    aspect-ratio: 1 / 1;
+}
