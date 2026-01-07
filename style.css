@@ -140,13 +140,13 @@
     font-size: 24px;
     font-weight: 500;
 }
-.soon-left h3 {
+.soon-left h3, #gift-section h3 {
     color: #070211;
     font-size: 48px;
     font-family: "Merriweather" !important;
     margin: 16px 0 22px;
 }
-.soon-left p, .soon-right p {
+.soon-left p, .soon-right p, #gift-section p {
     color: rgb(7, 2, 17, 0.6);
     font-size: 20px;
     line-height: 32px;
@@ -229,4 +229,29 @@
     right: -440px;
     width: 207px;
     aspect-ratio: 1 / 1;
+}
+
+
+#gift-section {
+    width: 82%;
+    margin: 120px auto;
+}
+#gift-section h5 {
+    font-family: "Inter";
+    font-size: 24px;
+    font-weight: 500;
+    color: #FF0000;
+}
+#gift-section p {
+    margin-bottom: 48px;
+    font-family: "Inter";
+}
+.card img {
+    width: 399px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
 }
