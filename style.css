@@ -118,3 +118,61 @@
 .welcome-event button {
     margin-top: 46px;
 }
+
+
+#soon-banner {
+    font-family: "Inter";
+    width: 82%;
+    height: 465px;
+    margin: 120px auto;
+    display: flex;
+}
+.soon-left {
+    margin: 104px 70px 330px 10px;
+    width: 394px;
+}
+.soon-right {
+    margin: 96px 0 43px 0px;
+    width: 276px;
+}
+.soon-left h5 {
+    color: #FF0000;
+    font-size: 24px;
+    font-weight: 500;
+}
+.soon-left h3 {
+    color: #070211;
+    font-size: 48px;
+    font-family: "Merriweather" !important;
+    margin: 16px 0 22px;
+}
+.soon-left p, .soon-right p {
+    color: rgb(7, 2, 17, 0.6);
+    font-size: 20px;
+    line-height: 32px;
+}
+.soon-right h3 {
+    color: #FF0000;
+    font-weight: bold;
+    font-size: 48px;
+}
+.soon-right p {
+    margin: 16px 0 43px;
+}
+
+.soon-image {
+    background: url("images/x.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 465px;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.soon-image img {
+    height: 250px;
+    transform: translate(6px, 8px);
+}
