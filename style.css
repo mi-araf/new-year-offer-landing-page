@@ -14,7 +14,7 @@
     color: #ffffff;
     background-color: #FF0000;
 }
-.btn:hover {
+.btn:hover, .subscribe-mail input[type="submit"]:hover {
     cursor: pointer;
     opacity: 0.83;
 }
@@ -140,7 +140,7 @@
     font-size: 24px;
     font-weight: 500;
 }
-.soon-left h3, #gift-section h3 {
+.soon-left h3, #gift-section h3, #subscribe h3 {
     color: #070211;
     font-size: 48px;
     font-family: "Merriweather" !important;
@@ -254,4 +254,43 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 24px;
+}
+
+
+#subscribe {
+    background-color: rgba(255, 0, 0, 0.05);
+    width: 82%;
+    margin: 0 auto;
+    text-align: center;
+}
+#subscribe img {
+    margin: 94px 0 44px 0;
+}
+#subscribe p {
+    font-size: 20px;
+    line-height: 32px;
+    color: rgb(7, 2, 17, 0.6);
+}
+.subscribe-mail {
+    padding: 46px 0 70px 0;
+    display: flex;
+    justify-content: center;
+}
+.subscribe-mail input[type="email"] {
+    font-size: 18px;
+    color: rgba(7, 2, 17, 0.3);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    padding: 25px 267px 25px 30px;
+    border: none;
+}
+.subscribe-mail input[type="submit"] {
+    font-size: 20px;
+    font-weight: 500;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    padding: 25px 56px;
+    border: none;
+    background-color: #FF0000;
+    color: #ffffff;
 }
