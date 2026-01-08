@@ -294,3 +294,34 @@
     background-color: #FF0000;
     color: #ffffff;
 }
+
+
+footer {
+    background-color: #070211;
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 40px;
+    font-family: "Inter";
+    padding: 120px;
+}
+footer hr {
+    margin: 0 auto;
+    border: none;
+    width: 74%;
+    height: 2px;
+    background-color: rgb(255, 255, 255, 0.16);
+    margin: 50px auto;
+}
+.address {
+    width: 74%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#social {
+    text-align: center;
+    margin: 48px auto;
+}
+#social img {
+    margin-right: 24px;
+}
